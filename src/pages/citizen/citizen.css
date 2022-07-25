@@ -1,0 +1,135 @@
+.citizen{
+    margin-top:60px;
+    
+}
+.citiImg{
+    width: 100%;
+    height: 450 px;
+    margin-top: -50px;
+    object-fit: cover;
+}
+
+.Titles{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    font-family: 'Lora', 'serif';
+    color: black;
+}
+
+.titlePq{
+    position: absolute;
+    top: 15%;
+    left: 37%;
+    font-size: 30px;
+    color: wheat;
+
+}
+.locationMenu{
+    position: absolute;
+    top: 23%;
+    left: 2;
+    color: antiquewhite;
+}
+
+.form1{
+
+    padding: 10px;
+    flex-direction: row;
+}
+
+.sp{
+    background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;
+}
+
+.ds{
+    background-color: #4CAF50;
+  color: white;
+  padding: 8px;
+  font-size: 12px;
+  border: none;
+  cursor: pointer;   
+}
+
+.Note{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    font-size: 30px;
+    color: wheat;
+}
+
+.Info{
+    width: 550px;
+    margin: 0px 25px 40px 25px;
+    flex-direction: column;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    
+    font-size: 20px;
+    line-height: 40px;
+    color: wheat;
+    margin-top: 120px;
+    margin-bottom: 1px;
+    margin-left: 300px;
+}
+
+.form2{
+    position: absolute;
+    top:25%;
+    right: 150px;
+    font-size: 30px;
+    color: wheat;
+    font-family: "Lora", serif;
+}
+
+.names{
+    font-size: 20px;
+    color: #1ceb38;
+    font-style: bold;
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+
+.buton{
+    position: absolute;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    bottom: 45p;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.fil{
+    line-height: 35px;
+
+}
+
+.post{
+    position: absolute;
+    color: white;
+    background-color: teal;
+    padding: 10px;
+    width: 80px;
+    right: 50px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.text{
+    width: 80%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}

@@ -1,0 +1,60 @@
+.cregister{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url("https://images.pexels.com/photos/935484/pexels-photo-935484.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    
+}
+
+.cregisterTitle{
+    color: black;
+    font-size: 40px;
+}
+
+.cregisterform > label{
+    color: black;
+    margin:10px 0;
+    font-size: 20px;
+
+}
+
+.cregisterform{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.cregisterform > input{
+    padding: 10px;
+    background-color: rgb(233, 213, 213);
+    border: none;
+    
+}
+
+.regbu{
+    margin-top:20px;
+    cursor: pointer;
+    background-color: teal;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.reslog{
+    position: absolute;
+    top:80px;
+    right: 20px;
+    font-size: large;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+}
